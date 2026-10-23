@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 200" width="390" height="200" role="img" aria-label="JexkCode-baileys card">
+<defs>
+    <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <radialGradient id="blob" cx="100%" cy="0%" r="85%">
+      <stop offset="0" stop-color="#b91c1c" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#b91c1c" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.9" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+<rect x="1" y="1" width="388" height="198" rx="18" fill="#0a0a0a" stroke="#1c1917" stroke-width="2"/>
+<rect x="1" y="1" width="388" height="198" rx="18" fill="url(#dots)"/>
+<rect x="1" y="1" width="388" height="198" rx="18" fill="url(#blob)"/>
+<rect x="1" y="1" width="388" height="198" rx="18" fill="none" stroke="url(#bd)" stroke-width="2.5" pathLength="1000" stroke-dasharray="140 860" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="6s" begin="0s" repeatCount="indefinite"/></rect>
+<circle cx="26" cy="26" r="4.5" fill="#292524"/>
+<circle cx="42" cy="26" r="4.5" fill="#292524"/>
+<circle cx="58" cy="26" r="4.5" fill="#292524"/>
+<circle cx="320" cy="26" r="3.5" fill="#ef4444"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
+<text x="330" y="30" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#78716c">public</text>
+<text x="24" y="74" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="20" font-weight="700" fill="#fafaf9"><tspan fill="#ef4444">~/</tspan>JexkCode-baileys</text>
+<text x="24" y="104" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#a8a29e">A WhatsApp bot starter built on Baileys.</text>
+<text x="24" y="124" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#a8a29e">Use this template, skip the setup,</text>
+<text x="24" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#a8a29e">and start writing commands.</text>
+<rect x="24" y="156" width="92" height="24" rx="12" fill="#111111" stroke="#d6d3d1" stroke-opacity="0.6" stroke-width="1.2"/>
+<text x="70.0" y="172" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="600" fill="#d6d3d1">JavaScript</text>
+<rect x="124" y="156" width="78" height="24" rx="12" fill="#111111" stroke="#ef4444" stroke-opacity="0.6" stroke-width="1.2"/>
+<text x="163.0" y="172" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="600" fill="#ef4444">Template</text>
+<rect x="210" y="156" width="43" height="24" rx="12" fill="#111111" stroke="#a8a29e" stroke-opacity="0.6" stroke-width="1.2"/>
+<text x="231.5" y="172" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="600" fill="#a8a29e">MIT</text>
+<text x="350" y="172" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#a8a29e">open</text>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;4 0;0 0" dur="1.6s" repeatCount="indefinite"/><text x="356" y="172" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700" fill="#ef4444">&#8594;</text></g>
+</svg>
